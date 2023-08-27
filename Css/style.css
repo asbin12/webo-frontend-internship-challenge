@@ -1373,11 +1373,12 @@
   position: absolute;
   left: 193px;
   top: 58px;
-  z-index: 0;
+  opacity: 30%;
+  /* z-index: 10; */
 }
 .dotted-image-cta:hover {
-  z-index: 10 !important;
-  opacity: 30%;
+  opacity: 100%;
+  z-index: 1;
 }
 
 .small-arc-cta {
@@ -1400,6 +1401,216 @@
   position: absolute;
   left: 977px;
   top: 47px;
+}
+
+.footer-content-area {
+  width: 1202px;
+  height: 325px;
+  /* border: 1px solid gray; */
+  margin-top: 150px;
+  margin-left: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-content-upper-part {
+  width: 1200px;
+  height: 198px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.website-name-logo {
+  width: 213px;
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.website-name-logo h1 {
+  width: 91px;
+  height: 28px;
+  font-family: "Manrope";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(27, 28, 49, 1);
+}
+.website-name-logo p {
+  width: 213px;
+  height: 56px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(117, 112, 149, 1);
+}
+.logo-img {
+  width: 127.9609375px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.company-nav-items {
+  width: 97px;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.company-nav-items h1 {
+  width: 97px;
+  height: 24px;
+  font-family: "Manrope";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(24, 20, 51, 1);
+}
+
+.company-nav-items p {
+  width: 69px;
+  height: 24px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-resource-part {
+  width: 174px;
+  height: 180px;
+}
+.footer-resource-part h1 {
+  width: 108px;
+  height: 24px;
+  font-family: "Manrope";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-resource-part-content {
+  width: 174px;
+  height: 132px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-newsletter {
+  width: 389px;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-newsletter h1 {
+  width: 200px;
+  height: 24px;
+  font-family: "Manrope";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(24, 20, 51, 1);
+}
+.footer-newsletter span {
+  width: 389px;
+  height: 52px;
+  display: flex;
+}
+.footer-newsletter span input {
+  width: 240px;
+  height: 52px;
+  border: none;
+  background: rgba(238, 238, 255, 1);
+}
+.footer-newsletter span ::placeholder {
+  width: 135px;
+  height: 26px;
+  opacity: 20%;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(24, 20, 51, 1);
+  padding-left: 15px;
+}
+.footer-newsletter span button {
+  width: 149px;
+  height: 52px;
+  background-color: rgba(55, 52, 169, 1);
+  border: none;
+}
+.footer-newsletter-btn-txt {
+  width: 74px;
+  height: 26px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 43px;
+}
+.footer-newsletter p {
+  width: 329px;
+  height: 52px;
+  opacity: 0.5px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.straight-line {
+  width: 1200px;
+  height: 2px;
+  /* margin-top: 59px; */
+  /* padding-left: 121px; */
+  background: rgba(229, 229, 234, 1);
+}
+.footer-copy-right {
+  width: 676px;
+  height: 26px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(24, 20, 51, 1);
+  padding-left: 396px;
 }
 /* .last-part-question-box {
   border:1px solid blue;
